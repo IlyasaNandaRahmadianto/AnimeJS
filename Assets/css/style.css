@@ -1,0 +1,84 @@
+/*Import Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#a3c4f3, #98f5e1);
+}
+
+.card {
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.4);
+  background: linear-gradient(#FFF2CC, #FFD966);
+  z-index: 3;
+  border: 1px solid #FFF2CC!important;
+}
+
+.btn {
+  color: black!important;
+}
+
+.card-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #FFF2CC;
+  box-shadow:  0px 0px 9px rgba(0,0,0,0.4);
+}
+
+.link{
+  justify-content: center;
+  display: grid;
+}
+
+.link a{
+  width: 200px;
+}
+
+.card-title{
+  color: white!important;
+  text-align: center;
+  text-shadow: 2px 2px black;
+} 
+
+.card-text {
+  text-shadow: 0px 1px whitesmoke;
+}
+
+.block {
+  position: absolute;
+  z-index: 2; 
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(#a3c4f3, #98f5e1);
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 2);
+}
+
+@media (min-width: 576px) { 
+  .block {
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(#a3c4f3, #98f5e1);
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 2);
+  }
+
+  .card {
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.4);
+    background: linear-gradient(#FFD966, #FFF2CC);
+    z-index: 3;
+    border: 1px solid #FFF2CC!important;
+  }
+}
